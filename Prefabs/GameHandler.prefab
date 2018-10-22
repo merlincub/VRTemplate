@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1904611076548566}
+  m_IsPrefabAsset: 1
+--- !u!1 &1904611076548566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4934800962141990}
+  - component: {fileID: 114659904444431382}
+  - component: {fileID: 114748771221212620}
+  m_Layer: 0
+  m_Name: GameHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4934800962141990
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904611076548566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114659904444431382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904611076548566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c2cde7ec2e244479cc56dba6fb82a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainRoomLevel: {fileID: 0}
+  startPosition: {fileID: 0}
+  tutorialStartPosition: {fileID: 0}
+  totalTimeBeforeGameEnds: 60
+  isTutorial: 0
+  exitMusic:
+    soundFXName: Default Sound
+  exitSound:
+    soundFXName: Default Sound
+  gameOverMusic:
+    soundFXName: Default Sound
+  uiLooseGamePrefab: {fileID: 0}
+  uiWinGamePrefab: {fileID: 0}
+  uiSettingsPrefab: {fileID: 0}
+  uiPlayerHudPrefab: {fileID: 0}
+--- !u!114 &114748771221212620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904611076548566}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b59018344415084095fc8607e655006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logoCanvas: {fileID: 0}
+  firstSceneName: Roger dev scene 3 testing
+  firstSceneFadeTime: 5
+  defaultFadeTime: 2
